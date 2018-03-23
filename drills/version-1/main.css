@@ -1,0 +1,88 @@
+*{
+    background-color: rgb(151, 196, 248);
+}
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 2em;
+
+}
+h2{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+nav, header, ul, h1, li, a, .header, footer, h4{
+    background-color: rgb(26, 25, 25);
+    
+
+}
+a{
+    text-decoration: none;
+    padding: 2px 20px;
+    color: rgb(204, 203, 203);
+}
+#logoTitle{
+    display: flex;
+    margin-bottom: 0;
+    color: rgb(204, 203, 203);
+   
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 5px;
+}
+h4{
+    padding: 0em 2em;
+    color: rgb(204, 203, 203);
+
+}
+.title{
+    background-color: black;
+    color: rgb(204, 203, 203);
+    overflow: hidden;
+    margin: 0%;
+    padding: 2em;
+}
+.text{
+    background-color: none;
+    margin: 0em;
+    padding: 1em 2em;
+}
+#space{
+    height: 2em;
+  
+}
+
+.pics{
+    position: relative;
+    opacity: 0.50;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.textSizing{
+    height: 10em;
+}
