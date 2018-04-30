@@ -1,0 +1,16 @@
+#aTaginWelcome{
+    color: white;
+}
+.constructor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;  
+}
+body{
+    background-position-y: 94%;
+    background-image: url("imgs/TrainTracks.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   }
