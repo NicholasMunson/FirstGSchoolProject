@@ -8,3 +8,9 @@ body{
     font-size: 3em;
 
 }
+#navBar{
+     overflow: hidden;
+     position: fixed;
+     top: 0;
+     width: 100%;
+}
