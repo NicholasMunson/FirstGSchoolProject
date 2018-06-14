@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.mountian{
+.mountain{
     background-image: url("san-juan-mountains.jpg");
     height: 650px; 
     background-attachment: fixed;
@@ -12,7 +12,7 @@
     background-size: cover;
     position: relative;
 }
-.secondMountian{
+.secondMountain{
     background-image: url("Dream-Lake.jpg");
     height: 650px; 
     background-attachment: fixed;
@@ -20,7 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 } 
-.thirdMountian{
+.thirdMountain{
     background-image: url("garden-of-the-gods.jpg");
     height: 650px; 
     background-attachment: fixed;
