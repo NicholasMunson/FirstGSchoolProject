@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
-.mountain{
-    background-image: url("san-juan-mountains.jpg");
+.mountain, .secondMountain,.thirdMountain,.fourthMountain{
     height: 650px; 
     background-attachment: fixed;
     background-position: center;
@@ -12,34 +10,27 @@
     background-size: cover;
     position: relative;
 }
-.secondMountain{
-    background-image: url("Dream-Lake.jpg");
-    height: 650px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-.thirdMountain{
-    background-image: url("garden-of-the-gods.jpg");
-    height: 650px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.mountain {
+    background-image: url("san-juan-mountains.jpg");
 
 }
-.fourthMountain{
-    background-image: url("coloradoMountiansjpg.jpg");
-    height: 650px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.secondMountain {
+    background-image: url("Dream-Lake.jpg");
+
 }
+.thirdMountain {
+    background-image: url("garden-of-the-gods.jpg");
+
+}
+.fourthMountain {
+    background-image: url("coloradoMountiansjpg.jpg");
+
+}
+
 .container{
     height: 100%;
-    background-color: rgba(0, 0, 0,.2); 
+    background-color:azure; 
     overflow: scroll;   
 }
 p{
@@ -56,7 +47,6 @@ p{
     width: 100%;
     text-align: center;
     color: #000;
-    background-color: rgba(0, 0, 0,0.)
 }
 
 ul {
