@@ -38,7 +38,7 @@
     background-size: cover;
 }
 .container{
-    height: 325px;
+    height: 100%;
     background-color: azure; 
     overflow: scroll;   
 }
