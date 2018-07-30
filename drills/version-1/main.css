@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .mountain, .secondMountain,.thirdMountain,.fourthMountain{
     height: 650px; 
     background-attachment: fixed;
@@ -15,14 +16,17 @@
     background-image: url("san-juan-mountains.jpg");
 
 }
+
 .secondMountain {
     background-image: url("Dream-Lake.jpg");
 
 }
+
 .thirdMountain {
     background-image: url("garden-of-the-gods.jpg");
 
 }
+
 .fourthMountain {
     background-image: url("coloradoMountiansjpg.jpg");
 
@@ -33,11 +37,13 @@
     background-color:azure; 
     overflow: scroll;   
 }
+
 p{
     padding: 1em 2em;
     font-family: Aladin;
     font-size: 1.5em;
 }
+
 .navWords{
     display: flex;
     justify-content: center;
@@ -49,7 +55,7 @@ p{
     color: #000;
 }
 
-ul {
+section  {
     list-style-type: none;
 }
 h1{
@@ -61,34 +67,37 @@ h1{
     padding: .5em;
     color: #000;
     font-weight: bold;
-    
 }
+
 .center{
     text-align: center;
 }
+
 footer{
     text-align: left;
     height: 3em;
 }
+
 .footer{
     display: flex;
     padding: 1em;
 }
+
 h4{
     margin: 2em;
 }
+
 .listTitle{
     font-size: 4em;
 }
+
 a{
     margin: 1em;
     color: azure;
     text-decoration-line: none;
     font-size: 2em;
 }
+
 h1, a, .titleWords, .listTitle{
     font-family: Tangerine;
-
 }
-    
-    
